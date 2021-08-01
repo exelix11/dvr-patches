@@ -1,6 +1,6 @@
 # dvr-patches
 
-This is a set of exefs patches to allow streaming most switch games with [sysdvr](https://github.com/exelix11/SysDVR)
+This is a set of exefs patches to allow streaming incompatible games with [sysdvr](https://github.com/exelix11/SysDVR)
 
 This is experimental and I did not test it with many games, **use at your own risk: may not work at all, cause instability and crashes or degrade performances.**
 
@@ -12,10 +12,13 @@ I doubt this can get you banned but again, **use at your own risk**.
 ## Installing
 Download this repo as a zip file from the green "code" button on the top of the page [or this link](http://github.com/exelix11/dvr-patches/archive/master.zip), extract it and copy the `am` folder to `/atmosphere/exefs_patches/` on your sd then reboot your console. Now streaming should just work™.
 
+Every time you install a new firmware update you'll probably need to download a new version of these patches which may not be available right away, check the commit messages to know when support for a new firmware is added.
+
 ## Game compatibility
 I don't know. 
 
-If you find a game that doesn't work or crashes with this open an issue. If you get a crash with title id `0100000000000023` it's most likely because of this.
+If you find a game that doesn't work or crashes with this open an issue, although i can't guarantee i'll be able to fix it.\
+If you get a crash with title id `0100000000000023` it's most likely because of this.
 
 ## Technical stuff
 ### What do these patches do ?
