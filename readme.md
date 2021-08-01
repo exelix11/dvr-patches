@@ -10,7 +10,7 @@ I doubt this can get you banned but again, **use at your own risk**.
 **The provided patches are only for 12.1, 11.0 and 11.0.1** as they are the only firmwares I could test. If these prove not to cause issues I will port them to older versions as well. Of course pull requests are welcome.
 
 ## Installing
-Download this repo as a zip file from the green "code" button on the top of the page [or this link](http://github.com/exelix11/dvr-patches/archive/master.zip) and copy the `am` folder to `/atmosphere/exefs_patches/` on your sd then reboot your console. Now streaming should just work™.
+Download this repo as a zip file from the green "code" button on the top of the page [or this link](http://github.com/exelix11/dvr-patches/archive/master.zip), extract it and copy the `am` folder to `/atmosphere/exefs_patches/` on your sd then reboot your console. Now streaming should just work™.
 
 ## Game compatibility
 I don't know. 
@@ -25,6 +25,5 @@ Currently only the AM sysmodule is patched, the following changes are made:
 - As a nice bonus, the function games use to load an overlay image is stubbed
 
 ### Didn't you say this wouldn't work without patching games ?
-I did. Turns out my assumption was based on a rather unfortunate selection of games while in fact most seem to work just fine without patching.
-
-Some may require additional patches and for those i'll be hosting them here.
+I did. Turns out I probably made a mistake during my initial testing while in fact most games seem to work just fine without patching. \
+That said, some games may have memory issues and require additional patches, in that case i'm fine with hosting them here if anyone is willing to PR them (.ips format only)
