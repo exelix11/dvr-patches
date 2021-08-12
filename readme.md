@@ -23,9 +23,13 @@ If you get a crash with title id `0100000000000023` it's most likely because of 
 ## Technical stuff
 ### What do these patches do ?
 Currently only the AM sysmodule is patched, the following changes are made:
-- Am will always behave as if a game has auto recording enabled in its nacp
-- The function to block recording in certain sections of the game is stubbed 
-- As a nice bonus, the function games use to load an overlay image is stubbed
+- All games that don't support recording will behave as if they have auto recording enabled in the nacp.
+- All games will have screenshots enabled in the nacp.
+- Am's code flow is adjusted to avoid crashing when memory allocation for auto recording fails.
+- The function to block recording in certain sections of the game is stubbed .
+- As a nice bonus, the function games use to load an overlay image is stubbed.
+
+If you want to port these patches to different firmware versions, check out [porting notes](https://github.com/exelix11/dvr-patches/wiki/Porting-notes)
 
 ### Didn't you say this wouldn't work without patching games ?
 I did. Turns out I probably made a mistake during my initial testing while in fact most games seem to work just fine without patching. \
