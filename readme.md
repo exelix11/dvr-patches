@@ -15,7 +15,7 @@ Download this repo as a zip file from the green "code" button on the top of the 
 Every time you install a new firmware update you'll probably need to download a new version of these patches which may not be available right away, check the commit messages to know when support for a new firmware is added.
 
 ## Game compatibility
-I don't know. 
+Most games seem to work fine, a few have been reported to not work or crash, check out the [issues](https://github.com/exelix11/dvr-patches/issues) tab for a list.
 
 If you find a game that doesn't work or crashes with this open an issue, although i can't guarantee i'll be able to fix it.\
 If you get a crash with title id `0100000000000023` it's most likely because of this.
