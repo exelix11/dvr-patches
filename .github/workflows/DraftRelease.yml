@@ -1,0 +1,30 @@
+name: Prepare release
+
+on:
+  push:
+    branches: [ master ]
+    paths:
+      - '**.ips'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Pack files for atmosphere
+        run: |
+          mkdir -p atmosphere/exefs_patches/
+          mv am atmosphere/exefs_patches/
+          zip -r dvr-patches.zip atmosphere/
+      
+      - name: Prepare draft
+        uses: softprops/action-gh-release@v1
+        with:
+          files: dvr-patches.zip
+          fail_on_unmatched_files: true
+          draft: true
+          token: ${{ secrets.GITHUB_TOKEN }}
