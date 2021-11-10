@@ -1,4 +1,9 @@
 # dvr-patches
+[![Discord](https://img.shields.io/discord/643436008452521984.svg?logo=discord&logoColor=white&label=Discord&color=7289DA
+)](https://discord.gg/rqU5Tf8)
+[![Latest release](https://img.shields.io/github/v/release/exelix11/dvr-patches)](https://github.com/exelix11/dvr-patches/releases)
+[![Downloads](https://img.shields.io/github/downloads/exelix11/dvr-patches/total)](https://github.com/exelix11/dvr-patches/releases)
+[![ko-fi](https://img.shields.io/badge/supporting-ko--fi-f96854)](https://ko-fi.com/exelix11)
 
 This is a set of exefs patches to allow streaming incompatible games with [sysdvr](https://github.com/exelix11/SysDVR)
 
@@ -7,7 +12,7 @@ This is experimental and I did not test it with many games, **use at your own ri
 I doubt this can get you banned but again, **use at your own risk**.
 
 ## Firmware compatibility
-**The provided patches are only for 13.0, 12.1, 11.0 and 11.0.1** as they are the only firmwares I could test. If these prove not to cause issues I will port them to older versions as well. Of course pull requests are welcome.
+**Only the following firmwares are supported: 13.1, 13.0, 12.1, 11.0 and 11.0.1**. I have no plans to port to older firmwares, of course pull requests are welcome.
 
 ## Installing
 Download `dvr-patches.zip` from latest [release](https://github.com/exelix11/dvr-patches/releases) and extract it to the root of your sd card then reboot your console. Now streaming should just work™.
