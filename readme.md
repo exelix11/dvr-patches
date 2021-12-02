@@ -12,7 +12,7 @@ This is experimental and I did not test it with many games, **use at your own ri
 I doubt this can get you banned but again, **use at your own risk**.
 
 ## Firmware compatibility
-**Only the following firmwares are supported: 13.1, 13.0, 12.1, 11.0 and 11.0.1**. I have no plans to port to older firmwares, of course pull requests are welcome.
+**Only the following firmwares are supported: 13.2, 13.1, 13.0, 12.1, 11.0 and 11.0.1**. I have no plans to port to older firmwares, of course pull requests are welcome.
 
 ## Installing
 Download `dvr-patches.zip` from latest [release](https://github.com/exelix11/dvr-patches/releases) and extract it to the root of your sd card then reboot your console. Now streaming should just work™.
