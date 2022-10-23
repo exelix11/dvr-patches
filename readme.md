@@ -12,7 +12,9 @@ This is experimental and I did not test it with many games, **use at your own ri
 I doubt this can get you banned but again, **use at your own risk**.
 
 ## Firmware compatibility
-**Only the following firmwares are supported: 14.1, 14.0, 13.2.1, 13.2, 13.1, 13.0, 12.1, 11.0 and 11.0.1**. \
+**The following firmwares are supported: 15.0, 14.1, 14.0, 13.2.1, 13.2, 13.1, 13.0, 12.1, 11.0 and 11.0.1**. \
+Sometimes firmware updates don't break these patches, for example 14.0 uses the same am version as 14.1, before opening an issue when a new firmware releases try running the patches ! 
+
 I have no plans to port to older firmwares, of course pull requests are welcome.
 
 ## Installing
