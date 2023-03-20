@@ -12,8 +12,11 @@ This is experimental and I did not test it with many games, **use at your own ri
 I doubt this can get you banned but again, **use at your own risk**.
 
 ## Firmware compatibility
-**The following firmwares are supported: 15.0.1, 15.0, 14.1, 14.0, 13.2.1, 13.2, 13.1, 13.0, 12.1, 11.0 and 11.0.1**. \
-Sometimes firmware updates don't break these patches, for example 14.0 uses the same am version as 14.1, before opening an issue when a new firmware releases try running the patches ! 
+**All firmwares starting from 11.0 should be supported, however patches must be updated with new firmwares.** 
+
+When a new firmware is released i'll try to update this repo in a timely manner, you can check if the latest firmware is supported in the [releases tab](https://github.com/exelix11/dvr-patches/releases) or enable github notifications for this repo to get notified of updates.
+
+Sometimes firmware updates don't need new patches, for example 14.0 uses the same ones as 14.1 because the relevant system module (am) was not changed, before opening an issue when a new firmware releases try running the patches ! 
 
 I have no plans to port to older firmwares, of course pull requests are welcome.
 
@@ -38,7 +41,3 @@ Currently only the AM sysmodule is patched, the following changes are made:
 - As a nice bonus, the function games use to load an overlay image is stubbed.
 
 If you want to port these patches to different firmware versions, check out [porting notes](https://github.com/exelix11/dvr-patches/wiki/Porting-notes)
-
-### Didn't you say this wouldn't work without patching games ?
-I did. Turns out I probably made a mistake during my initial testing while in fact most games seem to work just fine without patching. \
-That said, some games may have memory issues and require additional patches, in that case i'm fine with hosting them here if anyone is willing to PR them (.ips format only)
