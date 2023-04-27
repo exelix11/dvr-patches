@@ -26,9 +26,10 @@ Download `dvr-patches.zip` from latest [release](https://github.com/exelix11/dvr
 Every time you install a new firmware update you'll probably need to download a new version of these patches which may not be available right away, check the commit messages to know when support for a new firmware is added.
 
 ## Game compatibility
-Most games seem to work fine, a few have been reported to not work or crash, check out the [issues](https://github.com/exelix11/dvr-patches/issues) tab for a list.
+Most games seem to work fine, a few games require additional patches to work [full list here](https://github.com/exelix11/dvr-patches/issues?q=label%3A%22Fix+available%22+label%3A%22requires+patch%22) patches are provided in the thread but i offer no support for them.
 
-If you find a game that doesn't work or crashes with this open an issue, although i can't guarantee i'll be able to fix it.\
+A few games are not supported [full list here](https://github.com/exelix11/dvr-patches/labels/requires%20patch) if you find other games that don't work or crash open an issue, although i can't guarantee i'll be able to fix it.
+
 If you get a crash with title id `0100000000000023` it's most likely because of this.
 
 ## Technical stuff
